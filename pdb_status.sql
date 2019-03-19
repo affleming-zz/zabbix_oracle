@@ -1,3 +1,6 @@
+-- grant CREATE SESSION to C##ZABBIX container = all;
+-- grant SELECT ANY DICTIONARY to C##ZABBIX container = all;
+-- alter user c##zabbix set container_data = all container=current;
 SET	 pagesize 0
 SET	 heading OFF
 SET	 feedback OFF
